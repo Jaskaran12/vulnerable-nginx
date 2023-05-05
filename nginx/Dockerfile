@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1-bullseye
 
 COPY html/index.html /usr/share/nginx/html/index.html
 COPY login/index.html /usr/share/login/index.html
